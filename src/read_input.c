@@ -6,6 +6,7 @@
 int read_input(char **args){
 
     char letter, temp[80];
+    printf("»");
     for(int i = 0; i < 80; i++)temp[i] = '\0';
     for(int i = 0; (letter = getchar()) != '\n'; i++){
 

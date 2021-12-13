@@ -12,7 +12,7 @@ int show_accounts(bank_t *bank, int *account_counter){
         printf("+-----------------------------------------------------------------------------------+\n");
         printf("| Account Index: %2d | Owner: %10s | Balance: %6d | Total Transactions: %3d |\n", i, bank->account[i].owner,bank->account[i].balance,bank->account[i].transaction_number);
         printf("+-----------------------------------------------------------------------------------+\n");
-    }printf("\n\n");
+    }printf("\n");
     
     //Calculate Total Sum of all balances
     for(int i = 0; i < *account_counter; i++)summe += bank->account[i].balance;
