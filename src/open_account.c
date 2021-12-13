@@ -11,9 +11,10 @@ int open_account(bank_t *bank, char *owner_name, int starting_balance, int *acco
     bank->account[*account_counter].balance = starting_balance;
     //Increment num of accoutns
     *account_counter += 1;
-
-    printf("\nAccount of %s opened | Current balance: %d \n\n", owner_name, starting_balance);
-
+    
+    printf("+-------------------------------------------------------+\n");
+    printf("|Account of %10s opened | Current balance: %7d|\n", owner_name, starting_balance);
+    printf("+-------------------------------------------------------+\n");
     if(bank == NULL){
         printf("\nERROR: Invalid Parameter");
         exit(1);
