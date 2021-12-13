@@ -1,0 +1,29 @@
+
+
++*****Building Process & Execution:***********************+
+|                                                         |
+| 1. Build Project from bank/src/ directory:              |
+| ~ this building process also runs program automatically |
+| :$ make                                                 |
+|                                                         |
+| 2. Execute main program :                               |
+| :$ ./main                                               |
++*********************************************************+  
+
+Apply operations:
+
++--------------------------+
+| open_account NAME AMOUNT |
++--------------------------+
+i.e. open_account Richart 4580
+
++---------------------------------------------+
+| transfer AMOUNT RECIEVER_INDEX SENDER_INDEX |
++---------------------------------------------+
+i.e. transfer 350 0 1
+(TIPP: use show_accounts to display all owners and indeces)
+
++---------------+
+| show_accounts |
++---------------+
+i.e. transfer 350 0 1

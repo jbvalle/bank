@@ -1,3 +1,0 @@
-open_account John 4000
-open_account Michael 5000
-open_account  Peter 7050

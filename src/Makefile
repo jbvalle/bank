@@ -41,7 +41,7 @@ $(ODIR)/%.o: %.c
 
 #README
 SHOW_README:
-	cat ../README.txt
+	cat ../help.txt
 #clean target
 clean:
 	@echo Cleaning Up
